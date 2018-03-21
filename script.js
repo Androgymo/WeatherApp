@@ -4,7 +4,7 @@ $(function(){
 	navigator.geolocation.getCurrentPosition(function(position) {
 		var lat = position.coords.latitude;
 		var lon = position.coords.longitude;
-		var api = "http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=c0c6799d5fe46aab8a20016a5d91490a";
+		var api = "https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=c0c6799d5fe46aab8a20016a5d91490a";
 
 		//load the API to html file
 		$.getJSON(api, function(json){
