@@ -5,13 +5,11 @@ html {
 }
 
 
-
 body {
 	color: lightgray;
 	font-family: 'Hind', sans-serif;
 	display: flex;
 	height: 100%;
-
 }
 
 .banner {
