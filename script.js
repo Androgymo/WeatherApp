@@ -92,7 +92,7 @@ $(function(){
 
 			var cssImage = "url(images/" + weatherImg[obj.weather[0].id] + ")";
 
-			$("html").css({"background-image": cssImage});
+			$("html").css({"background": "linear-gradient(rgba(0, 81, 181, 0.45),rgba(0, 81, 181, 0.45))," + cssImage});
 
 			//change temperature from Kelvin to Fahrenheit to Celsuis
 			var KTemp = Math.floor(obj.main.temp);
